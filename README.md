@@ -17,11 +17,19 @@ The [intersys.pythonbind package][4] is a Python C extension that provides Pytho
 
 The Caché Object Server, a high performance server process, manages communication between Python clients and a Caché database server. It communicates using standard networking protocols (TCP/IP), and can run on any platform supported by Caché.
 
+### Source Code
+Open and view ([cacheorm.py][8])
+
+### Tests and Demos
+There are two folders in this release:
+testCacheORM folder 
+test
+
 ### Documentation
 The code is well documented and there are many tests that demonstrate the use of CacheQuery and CacheClass 
 
 ### Bonus
-I wrote these SocketReceiver, SocketSender  classes for Python 3 so now it is super easy for anyone to run a simple TCP socket communication test on two Python consoles. This was done in order to capture "writes" from Caché. In that case you need to redirect your IO and write the data to python console.
+I wrote these [SocketReceiver, SocketSender][7]  classes for Python 3 so now it is super easy for anyone to run a simple TCP socket communication test on two Python consoles. This was done in order to capture "writes" from Caché. In that case you need to redirect your IO and write the data to python console.
 
 [1]: https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=GBPY_using
 [2]: https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=GBPY_classes#GBPY_classes_queries
@@ -29,3 +37,7 @@ I wrote these SocketReceiver, SocketSender  classes for Python 3 so now it is su
 [4]: https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=GBPY
 [5]: https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=GBPY_classes#GBPY_classes_objects
 [6]: https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=GBPY_classes#GBPY_classes_database
+[7]: https://github.com/healiseu/IntersystemsCacheORM/blob/master/socket.py
+[8]: https://github.com/healiseu/IntersystemsCacheORM/blob/master/cacheorm.py
+[9]: https://github.com/healiseu/IntersystemsCacheORM/blob/master/testCacheORM/testCacheORM%20-%20Cache%20Objects%20Test%201.ipynb
+[10]: https://github.com/healiseu/IntersystemsCacheORM/blob/master/testCacheORM/testCacheORM%20-%20Cache%20Objects%20Test%202.ipynb
