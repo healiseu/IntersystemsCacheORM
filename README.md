@@ -36,11 +36,11 @@ Currently there is no documentation written for the project. Python jupyter note
 I wrote these [SocketReceiver, SocketSender][7]  classes for Python 3 so now it is super easy for anyone to run a simple TCP socket communication test on two Python consoles. This was done in order to capture "writes" from Caché. In that case you need to redirect your IO and write the data to python console.
 
 ### Installation
-Caché provides client-side Python support through the intersys.pythonbind module, which implements the connection and caching mechanisms required to communicate with a Caché server. This module has to be compiled and installed in your environment. Set up your environment variables to support C compilation and linking, as described in the [documentation of Intersystems Cache Python Binding][12]. Also make sure that you are using Python 3 interpreter.
+Caché provides client-side Python support through the `intersys.pythonbind` module, which implements the connection and caching mechanisms required to communicate with a Caché server. This module has to be compiled and installed in your environment. Set up your environment variables to support C compilation and linking, as described in the [installation guide of Intersystems Cache Python Binding][12]. Also make sure that you are using Python 3 interpreter.
 
-If installation is successful the module will be placed under your python site-packages in a folder with the name `pythonbind3-1.0-py3.6-linux-x86_64.egg`. Now you may to run any of the [sample programs][] that are provided by Intersystems Cache
+If installation is successful the module will be placed under your python site-packages in a folder with the name `pythonbind3-1.0-py3.6-linux-x86_64.egg`. Now you may run any of the [sample programs][13] that are provided by Intersystems Cache to verify that Python interpreter references properly `intersys.pythonbind` module.
 
-
+Then you can download and try to execute my tests and demos. I have also placed jupyter notebook files at [my Microsoft Azure library][14] and you can view them there, I think you must login first, or download them and open them locally at your machine.
 
 [1]: https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=GBPY_using
 [2]: https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=GBPY_classes#GBPY_classes_queries
@@ -55,3 +55,4 @@ If installation is successful the module will be placed under your python site-p
 [11]: http://healis.eu/triadb
 [12]: https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=GBPY_intro#GBPY_intro_install
 [13]: https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=GBPY_intro#GBPY_intro_samples
+[14]: https://notebooks.azure.com/athanassios/libraries/CacheORM
