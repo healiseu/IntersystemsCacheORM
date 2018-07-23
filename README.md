@@ -23,8 +23,9 @@ The code released here was originally written and used as a module of [TRIADB][1
 
 ### Tests and Demos
 There are two folders in this release:
-testCacheORM contains python jupyter notebook files that demonstrate CacheQuery and CacheClass
-testCacheBinding are tests written for Intersystems Cache python binding
+
+* testCacheORM contains python jupyter notebook files that demonstrate CacheQuery and CacheClass
+* testCacheBinding are tests written for Intersystems Cache python binding
 
 One can simply compare tests with demos to appreciate the work in this project to leverage intersystems cache python binding.
 
