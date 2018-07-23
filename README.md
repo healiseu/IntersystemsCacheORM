@@ -19,7 +19,7 @@ The Caché Object Server, a high performance server process, manages communicati
 
 ### Source Code
 Open and view [cacheorm.py][8]
-The code released here was originally written for [TRIADB][11] project.
+The code released here was originally written and used as a module of [TRIADB][11] project.
 
 ### Tests and Demos
 There are two folders in this release:
