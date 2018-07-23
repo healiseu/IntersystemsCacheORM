@@ -22,8 +22,10 @@ Open and view ([cacheorm.py][8])
 
 ### Tests and Demos
 There are two folders in this release:
-testCacheORM folder 
-test
+testCacheORM contains python jupyter notebook files that demonstrate CacheQuery and CacheClass
+testCacheBinding are tests written for Intersystems Cache python binding
+
+One can simply compare tests with demos to appreciate the work in this project to leverage intersystems cache python binding.
 
 ### Documentation
 The code is well documented and there are many tests that demonstrate the use of CacheQuery and CacheClass 
