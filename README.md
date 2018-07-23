@@ -1,5 +1,5 @@
 # IntersystemsCacheORM
-Intersystems Cache Object-Relational Mapper based on [Intersystems Python Binding][4] module
+Intersystems Cache Object-Relational Mapper based on [Intersystems Python Binding][4] module. 
 
 ### About CacheORM
 This module is an enhanced OOP porting of Intersystems [Cache-Python binding][1]. It serves the purpose of an object-relational mapper in python for Intersystems Cache database There are three classes implemented:
@@ -18,15 +18,19 @@ The [intersys.pythonbind package][4] is a Python C extension that provides Pytho
 The Caché Object Server, a high performance server process, manages communication between Python clients and a Caché database server. It communicates using standard networking protocols (TCP/IP), and can run on any platform supported by Caché.
 
 ### Source Code
-Open and view ([cacheorm.py][8])
+Open and view [cacheorm.py][8]
+The code released here was originally written and used as a module of [TRIADB][11] project.
 
 ### Tests and Demos
 There are two folders in this release:
-testCacheORM folder 
-test
+
+* testCacheORM contains python jupyter notebook files that demonstrate CacheQuery and CacheClass
+* testCacheBinding are tests written for Intersystems Cache python binding
+
+One can simply compare tests with demos to appreciate the work in this project to leverage intersystems cache python binding.
 
 ### Documentation
-The code is well documented and there are many tests that demonstrate the use of CacheQuery and CacheClass 
+The code is well documented (see [cacheorm.py][8]) and there are also python jupyter notebooks that demonstrate the use of them.
 
 ### Bonus
 I wrote these [SocketReceiver, SocketSender][7]  classes for Python 3 so now it is super easy for anyone to run a simple TCP socket communication test on two Python consoles. This was done in order to capture "writes" from Caché. In that case you need to redirect your IO and write the data to python console.
@@ -41,3 +45,4 @@ I wrote these [SocketReceiver, SocketSender][7]  classes for Python 3 so now it 
 [8]: https://github.com/healiseu/IntersystemsCacheORM/blob/master/cacheorm.py
 [9]: https://github.com/healiseu/IntersystemsCacheORM/blob/master/testCacheORM/testCacheORM%20-%20Cache%20Objects%20Test%201.ipynb
 [10]: https://github.com/healiseu/IntersystemsCacheORM/blob/master/testCacheORM/testCacheORM%20-%20Cache%20Objects%20Test%202.ipynb
+[11]: http://healis.eu/triadb
