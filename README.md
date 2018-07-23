@@ -30,7 +30,7 @@ There are two folders in this release:
 One can simply compare tests with demos to appreciate the work in this project to leverage intersystems cache python binding.
 
 ### Documentation
-The code is well documented (see [cacheorm.py][8]) and there are also python jupyter notebooks that demonstrate the use of them.
+Currently there is no documentation written for the project. Python jupyter notebooks in testCacheORM folder demonstrate the use of CacheQuery and CacheClass. You may also study the code that is well commented (see [cacheorm.py][8]).
 
 ### Bonus
 I wrote these [SocketReceiver, SocketSender][7]  classes for Python 3 so now it is super easy for anyone to run a simple TCP socket communication test on two Python consoles. This was done in order to capture "writes" from Caché. In that case you need to redirect your IO and write the data to python console.
