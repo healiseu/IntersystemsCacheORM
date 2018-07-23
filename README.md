@@ -20,6 +20,8 @@ The Caché Object Server, a high performance server process, manages communicati
 ### Documentation
 The code is well documented and there are many tests that demonstrate the use of CacheQuery and CacheClass 
 
+### Bonus
+I wrote these SocketReceiver, SocketSender  classes for Python 3 so now it is super easy for anyone to run a simple TCP socket communication test on two Python consoles. This was done in order to capture "writes" from Caché. In that case you need to redirect your IO and write the data to python console.
 
 [1]: https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=GBPY_using
 [2]: https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=GBPY_classes#GBPY_classes_queries
