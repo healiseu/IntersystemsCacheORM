@@ -40,7 +40,11 @@ Caché provides client-side Python support through the `intersys.pythonbind` mod
 
 If installation is successful the module will be placed under your python site-packages in a folder with the name `pythonbind3-1.0-py3.6-linux-x86_64.egg`. Now you may run any of the [sample programs][13] that are provided by Intersystems Cache to verify that Python interpreter references properly `intersys.pythonbind` module.
 
-If you passed successfully this stage then download CacheORM and place its folder, as it is, under your Python site-packages directory. This is the same location where your `intersys.pythonbind` is installed.
+If you passed successfully this stage then download CacheORM unzip and rename the folder as `CacheORM`. Locate your Python 3 distribution and copy the folder under `site-packages` e.g. in my installtion this is 
+
+`../anaconda3/lib/python3.6/site-packages/CacheORM/`
+
+This is the same location where your `intersys.pythonbind` is installed.
 
 Finally try to execute my tests and demos. I have also placed jupyter notebook files at [my Microsoft Azure library][14] and you can **ONLY view them or download and open them locally at your machine** (I think you must login first).
 
