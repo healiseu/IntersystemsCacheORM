@@ -1,5 +1,5 @@
 # IntersystemsCacheORM
-Intersystems Cache Object-Relational Mapper based on [Intersystems Python Binding][4] module
+Intersystems Cache Object-Relational Mapper based on [Intersystems Python Binding][4] module. 
 
 ### About CacheORM
 This module is an enhanced OOP porting of Intersystems [Cache-Python binding][1]. It serves the purpose of an object-relational mapper in python for Intersystems Cache database There are three classes implemented:
@@ -29,7 +29,7 @@ testCacheBinding are tests written for Intersystems Cache python binding
 One can simply compare tests with demos to appreciate the work in this project to leverage intersystems cache python binding.
 
 ### Documentation
-The code is well documented and there are many tests that demonstrate the use of CacheQuery and CacheClass 
+The code is well documented (see [cacheorm.py][8]) and there are also python jupyter notebooks that demonstrate the use of them.
 
 ### Bonus
 I wrote these [SocketReceiver, SocketSender][7]  classes for Python 3 so now it is super easy for anyone to run a simple TCP socket communication test on two Python consoles. This was done in order to capture "writes" from Caché. In that case you need to redirect your IO and write the data to python console.
