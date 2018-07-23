@@ -17,6 +17,10 @@ The [intersys.pythonbind package][4] is a Python C extension that provides Pytho
 
 The Caché Object Server, a high performance server process, manages communication between Python clients and a Caché database server. It communicates using standard networking protocols (TCP/IP), and can run on any platform supported by Caché.
 
+### Documentation
+The code is well documented and there are many tests that demonstrate the use of CacheQuery and CacheClass 
+
+
 [1]: https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=GBPY_using
 [2]: https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=GBPY_classes#GBPY_classes_queries
 [3]: https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=GBPY_using#GBPY_using_basics
